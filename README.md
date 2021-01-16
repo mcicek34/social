@@ -12,29 +12,31 @@ Social Module portalınıza eklemek için yapmanız gereken işlemler
 
 Bu dört adımı uyguladığınızda migrationdaki tablolar veri tabanına eklenecek ve github daki ödev modülü portal/vendor/mcicek34 dizininin altına social olarak oluşarak erişilebilir hale gelecektir.
 
-#Panel Görünümleri
 
----------Anasayfa------------
+# Panel Görünümleri
 
-[img]https://i.hizliresim.com/cfdRCB.png[/img][/url]
+Anasayfa => http://advanced/frontend/web/index.php?r=social/default/index
 
----------Paylaşımlar----------
+![Alt text](https://i.hizliresim.com/cfdRCB.png)
 
-[img]https://i.hizliresim.com/DRrdP2.png[/img][/url]
+Paylaşımlar => http://advanced/frontend/web/index.php?r=/social/share/index
 
----------Arkadaşlar----------
+![Alt text](https://i.hizliresim.com/DRrdP2.png)
 
-[img]https://i.hizliresim.com/gtzLMc.png[/img][/url]
+Arkadaşlar => http://advanced/frontend/web/index.php?r=social/friendship/index
 
----------Kullanıcılar----------
+![Alt text](https://i.hizliresim.com/gtzLMc.png)
 
-[img]https://i.hizliresim.com/qp6bhi.png[/img][/url]
+Kullanıcılar => http://advanced/frontend/web/index.php?r=social/kullanicilar/index
 
----------Kullanıcı----------
+![Alt text](https://i.hizliresim.com/qp6bhi.png)
 
-[img]https://i.hizliresim.com/hxovX1.png[/img][/url]
+Kullanıcı => http://advanced/frontend/web/index.php?r=social%2Fkullanicilar%2Fview&id=2
 
-#Notlar
+![Alt text](https://i.hizliresim.com/hxovX1.png)
+
+
+# Notlar
 
 1-)Users paneli açıldığında;
     Kaydolcak kişiden migration ile oluşturulan kullanıcılar tablosundaki değerler alınıp tabloya eklenir ve userlist de gösterilir.
@@ -43,5 +45,4 @@ Bu dört adımı uyguladığınızda migrationdaki tablolar veri tabanına eklen
     Paylaşım yapacak kişiden migration ile oluşturulan share tablosundaki değerler alınıp tabloya eklenir ve sharelist de gösterilir.
 
 3-)Friendship paneli açıldığında;
-
-   Arkadaş olunan kişiler migration ile oluşturulan friendship tablosundaki değerler alınıp tabloya eklenir ve friendshiplist de gösterilir.
+     Arkadaş olunan kişiler migration ile oluşturulan friendship tablosundaki değerler alınıp tabloya eklenir ve friendshiplist de gösterilir.
