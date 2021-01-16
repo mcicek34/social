@@ -12,30 +12,31 @@ Social Module portalınıza eklemek için yapmanız gereken işlemler
 
 Bu dört adımı uyguladığınızda migrationdaki tablolar veri tabanına eklenecek ve github daki ödev modülü portal/vendor/mcicek34 dizininin altına social olarak oluşarak erişilebilir hale gelecektir.
 
-#Panel Görünümleri
 
----------Anasayfa------------
+# Panel Görünümleri
+
+Anasayfa => http://advanced/frontend/web/index.php?r=social/default/index
 
 ![Alt text](https://i.hizliresim.com/cfdRCB.png)
 
----------Paylaşımlar----------
+Paylaşımlar => http://advanced/frontend/web/index.php?r=/social/share/index
 
 ![Alt text](https://i.hizliresim.com/DRrdP2.png)
 
----------Arkadaşlar----------
+Arkadaşlar => http://advanced/frontend/web/index.php?r=social/friendship/index
 
 ![Alt text](https://i.hizliresim.com/gtzLMc.png)
 
----------Kullanıcılar----------
+Kullanıcılar => http://advanced/frontend/web/index.php?r=social/kullanicilar/index
 
 ![Alt text](https://i.hizliresim.com/qp6bhi.png)
 
----------Kullanıcı----------
+Kullanıcı => http://advanced/frontend/web/index.php?r=social%2Fkullanicilar%2Fview&id=2
 
 ![Alt text](https://i.hizliresim.com/hxovX1.png)
 
 
-#Notlar
+# Notlar
 
 1-)Users paneli açıldığında;
     Kaydolcak kişiden migration ile oluşturulan kullanıcılar tablosundaki değerler alınıp tabloya eklenir ve userlist de gösterilir.
