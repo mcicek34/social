@@ -16,23 +16,24 @@ Bu dört adımı uyguladığınızda migrationdaki tablolar veri tabanına eklen
 
 ---------Anasayfa------------
 
-[img]https://i.hizliresim.com/cfdRCB.png[/img][/url]
+![Alt text](https://i.hizliresim.com/cfdRCB.png)
 
 ---------Paylaşımlar----------
 
-[img]https://i.hizliresim.com/DRrdP2.png[/img][/url]
+![Alt text](https://i.hizliresim.com/DRrdP2.png)
 
 ---------Arkadaşlar----------
 
-[img]https://i.hizliresim.com/gtzLMc.png[/img][/url]
+![Alt text](https://i.hizliresim.com/gtzLMc.png)
 
 ---------Kullanıcılar----------
 
-[img]https://i.hizliresim.com/qp6bhi.png[/img][/url]
+![Alt text](https://i.hizliresim.com/qp6bhi.png)
 
 ---------Kullanıcı----------
 
-[img]https://i.hizliresim.com/hxovX1.png[/img][/url]
+![Alt text](https://i.hizliresim.com/hxovX1.png)
+
 
 #Notlar
 
@@ -43,5 +44,4 @@ Bu dört adımı uyguladığınızda migrationdaki tablolar veri tabanına eklen
     Paylaşım yapacak kişiden migration ile oluşturulan share tablosundaki değerler alınıp tabloya eklenir ve sharelist de gösterilir.
 
 3-)Friendship paneli açıldığında;
-
-   Arkadaş olunan kişiler migration ile oluşturulan friendship tablosundaki değerler alınıp tabloya eklenir ve friendshiplist de gösterilir.
+     Arkadaş olunan kişiler migration ile oluşturulan friendship tablosundaki değerler alınıp tabloya eklenir ve friendshiplist de gösterilir.
