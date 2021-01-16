@@ -1,1 +1,1 @@
-<?php echo "çalısıyor" ?>
+<?php echo "Çalışıyoor" ?>
