@@ -2,11 +2,11 @@
 
 Social Module portalınıza eklemek için yapmanız gereken işlemler
 
-1-) Portal içerisindeki composer.json dosyasında repositories bölümüne modülün linkini eklemek. { "type": "vcs", "url": "https://github.com/mcicek34/social.git" },
+1-) Advanced içerisindeki composer.json dosyasında repositories bölümüne modülün linkini eklemek. { "type": "vcs", "url": "https://github.com/mcicek34/social.git" },
 
-2-) Portal klasörünün içerisindeki portal/backend/config/main.php , portal/frontend/config/main.php , portal/api/config/main.php dosyalarındaki modules bölümüne kendi modülünüzü eklemeniz gerekmektedir.
+2-) Advanced klasörünün içerisindeki advanced/backend/config/main.php , advanced/frontend/config/main.php , advanced/api/config/main.php dosyalarındaki modules bölümüne kendi modülünüzü eklemeniz gerekmektedir.
 
-3-) Composer.json a eklediğimiz repoyu sistemimize eklemek için vagrant ssh yaptıktan sonra cd /var/www/portal dizininde composer update veya composer require mcicek34/social "dev-main" komutunu çalıştırınız.
+3-) Composer.json a eklediğimiz repoyu sistemimize eklemek için vagrant ssh yaptıktan sonra cd /var/www/advanced dizininde composer update veya composer require mcicek34/social "dev-main" komutunu çalıştırınız.
 
 4-) Migration dosyası uplanarak veri tabanına modülde kullandığımız tablolar eklenir. Bunun için vagrant ssh da "php yii migrate --migrationPath=@vendor/mcicek34/social/migrations --interactive=0" komutu çalıştırılır
 
