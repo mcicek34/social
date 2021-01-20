@@ -1,5 +1,9 @@
 # Social Network Module
 
+İnternet Programcılığı Proje Ödevi
+Mustafa ÇİÇEK 
+160202055
+
 Social Module portalınıza eklemek için yapmanız gereken işlemler
 
 1-) Advanced içerisindeki composer.json dosyasında repositories bölümüne modülün linkini eklemek. { "type": "vcs", "url": "https://github.com/mcicek34/social.git" },
